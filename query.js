@@ -14,4 +14,4 @@ const run = async () => {
     await process.exit()
 }
 
-run()
+run();
