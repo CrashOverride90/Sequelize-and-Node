@@ -4,7 +4,8 @@
 	"name": "Node.js & PostgreSQL",
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
-	"workspaceFolder": "/workspaces",
+	// "mounts": ["source=${localWorkspaceFolder},target=/host,type=bind,consistency=cached"],
+	// "workspaceFolder": "/workspace",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
